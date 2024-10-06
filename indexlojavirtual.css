@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+.header {
+    width: 90%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    margin: 30px 0;
+    padding: 15px;
+    border-radius: 3px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+header.center {
+    text-align: center;
+}
+
+.header .logo {
+    font-size: 70px;
+    font-weight: bolder;
+    color: green;
+    text-shadow:
+        -1px -1px 0 cyan,
+        1px -1px 0 cyan,
+        -1px 1px 0 cyan,
+        1px 1px 0 cyan;
+}
+
+.login label {
+    color: black;
+    font-size: 25px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: left;
+    padding: 15px;
+ 
+    
+
+}
+
+.login input {
+    color: black;
+    font-size: 25px;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    text-align: left;
+    border: none;
+    outline: none;
+    background-color: rgb(227, 234, 227);
+}
+
+
+.input input{
+    display: flex;
+    justify-content: center;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px ;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.input input:hover {
+    background: rgb(146, 200, 152);
+    cursor: pointer;
+}
